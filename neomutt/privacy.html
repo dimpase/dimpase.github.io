@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the personal NeoMutt Gmail setup accesses, uses, stores, and shares data.">
+  <title>Privacy policy · NeoMutt Gmail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p>Dima Pasechnik · Personal email setup</p>
+    <nav aria-label="Main navigation">
+      <a href="./">About</a>
+      <a href="privacy.html" aria-current="page">Privacy policy</a>
+      <a href="terms.html">Terms of use</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Privacy policy</h1>
+    <p>This policy describes the NeoMutt Gmail OAuth application maintained by
+      Dima Pasechnik for access to his own Gmail account.</p>
+    <h2>Data accessed and its purpose</h2>
+    <p>The local email client accesses the account's email address, messages,
+      message headers, sender and recipient addresses, attachments, folders,
+      labels, and message status as needed to read, compose, send, organize,
+      and delete email. OAuth access and refresh tokens authorize these
+      connections without giving the client the Google account password.</p>
+    <p>The full mail permission permits reading, sending, changing, and
+      permanently deleting messages through Gmail's IMAP and SMTP interfaces.
+      Data is used only to provide these personal email functions.</p>
+    <h2>Storage and protection</h2>
+    <p>The client connects directly to Google over encrypted connections.
+      OAuth tokens are stored on the owner's computer in a file encrypted
+      with GPG. Email, attachments, drafts, and caches may also be stored
+      locally according to client settings and the owner's actions; these
+      local files are not necessarily encrypted by the email client.</p>
+    <p>There is no separate application server that collects or stores
+      mailbox data. This website and its public source repository contain
+      no mailbox data or OAuth credentials.</p>
+    <h2>Sharing and other uses</h2>
+    <p>The setup exchanges data with Google to provide email functionality.
+      Messages and attachments are delivered to recipients when the owner
+      sends or forwards them. This setup does not otherwise sell or share
+      Google user data, use it for advertising or analytics, or use it to
+      train artificial intelligence models.</p>
+    <p>The use of information received from Google APIs follows the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+      API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    <h2>Retention, revocation, and deletion</h2>
+    <p>Local tokens are retained until removed or replaced. The owner can
+      revoke this application's access through
+      <a href="https://myaccount.google.com/connections">Google Account connections</a>
+      and delete the local token file. Revoking access stops further
+      authorized access but does not delete messages already stored in Gmail
+      or downloaded to the computer.</p>
+    <p>The owner controls retention and deletion of local messages, drafts,
+      attachments, caches, and backups. Gmail retains server-side email
+      according to the account's settings and Google's policies.</p>
+    <h2>This informational website</h2>
+    <p>These pages contain no analytics scripts, tracking pixels, or forms.
+      GitHub Pages hosts the site and may process visitor connection data,
+      such as IP addresses, under the
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
+      Privacy Statement</a>. Visiting these pages does not authorize access
+      to a Google account.</p>
+    <h2>Contact and changes</h2>
+    <p>Questions about this setup can be sent to
+      <a href="mailto:dimpase@gmail.com">dimpase@gmail.com</a>. This policy
+      will be updated if the setup's data handling changes.</p>
+  </main>
+  <footer>
+    <p>Maintained by Dima Pasechnik.
+      <a href="mailto:dimpase@gmail.com">Contact: dimpase@gmail.com</a><br>
+      Last updated: <time datetime="2026-10-24">24 October 2026</time>.</p>
+  </footer>
+</body>
+</html>
